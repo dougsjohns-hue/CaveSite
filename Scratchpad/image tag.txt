@@ -1,0 +1,1 @@
+Write an HTML image tag for picture located at "C:\Users\cowbo\OneDrive\Desktop\Cave Site\7. Wall Art\1.  The Cave Poster(Lite).jpg" with the alt text 'The Cave Poster' and place it in "C:\Users\cowbo\OneDrive\Desktop\Cave Site\7. Wall Art"

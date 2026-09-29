@@ -1,0 +1,1 @@
+create html code for the image names in the rc_cars.txt file using the uploaded html code as an example

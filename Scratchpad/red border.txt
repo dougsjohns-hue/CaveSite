@@ -1,0 +1,1 @@
+add a red border around each image in the uploaded html code

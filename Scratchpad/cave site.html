@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cave</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #dbeafe; /* Light blue background */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 3rem 1.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #0f172a;
+      margin-bottom: 2.5rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .folder-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .folder-card {
+      display: block;
+      padding: 1.5rem 1.25rem;
+      background: #ffffff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.25rem;
+      font-weight: 700;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      text-align: center;
+    }
+
+    .folder-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.12), 0 4px 6px -4px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Odd items: Dark Blue */
+    .folder-card:nth-child(odd) {
+      color: #1e3a8a;
+      border-left: 6px solid #1e3a8a;
+    }
+
+    /* Even items: Red */
+    .folder-card:nth-child(even) {
+      color: #dc2626;
+      border-left: 6px solid #dc2626;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>The Cave</h1>
+
+  <div class="folder-grid">
+    <!-- Replace the href values with your actual local file paths -->
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\1. Virtual Tour" class="folder-card" target="_blank">Virtual Tour</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\2. Merchandise" class="folder-card" target="_blank">Merchandise</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\3. Arcade" class="folder-card" target="_blank">Arcade</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\4. Audiovisual" class="folder-card" target="_blank">Audiovisual</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\4. Micro-Mini Arcade" class="folder-card" target="_blank">Micro-Mini Arcade</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\5.  Handhelds" class="folder-card" target="_blank">Handhelds</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\6. Dallas Cowboys" class="folder-card" target="_blank">Dallas Cowboys</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\7. Wall Art" class="folder-card" target="_blank">Wall Art</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\8. Game Consoles" class="folder-card" target="_blank">Game Consoles</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\9. Career Memories" class="folder-card" target="_blank">Career Memories</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\10. Cap Collection" class="folder-card" target="_blank">Cap Collection</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\11. Computers" class="folder-card" target="_blank">Computers</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\12. Radio Control Cars" class="folder-card" target="_blank">Radio Controlled Cars</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\13. Robots" class="folder-card" target="_blank">Robots</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\14. Tickers" class="folder-card" target="_blank">Tickers</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\15. Misc" class="folder-card" target="_blank">Miscellaneous</a>
+    <a href="file:///C:/Users/cowbo\OneDrive\Desktop\Cave Site\16. Seating" class="folder-card" target="_blank">Seating</a>	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  </div>
+
+</body>
+</html>
